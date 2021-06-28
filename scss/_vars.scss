@@ -1,0 +1,30 @@
+$title: #35312E;
+$base: #4F463F;
+$default: #6E6259;
+$white: #FCFAF6;
+$bg: #FBF6EA;
+$footer-title: #F5F1E9;
+
+%roboto-400 {
+  font-family: 'Roboto-Regular', sans-serif;
+  font-weight: 400;
+}
+
+%roboto-700 {
+  font-family: 'Roboto-Bold', sans-serif;
+  font-weight: 700;
+}
+
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
+
+
+
+
+
