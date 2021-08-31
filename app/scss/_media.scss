@@ -39,20 +39,36 @@
     padding-bottom: 50px;
   }
   .follow{
-    flex-wrap: wrap;
+    &__title{
+      font-size: 18px;
+      line-height: 32px;
+    }
   }
-  .follow__image{
-    max-width: 50%;
-  }
-  .follow__content{
-    order: 1;
-    padding: 25px 0;
-  }
+  // .follow__image{
+  //   max-width: 50%;
+  // }
+  // .follow__content{
+  //   order: 1;
+  //   padding: 25px 0;
+  // }
   .footer-top__inner{
     flex-wrap: wrap;
   }
   .footer-top__form{
     margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 650px) {
+  .follow{
+    &__items{
+      flex-wrap: wrap;
+    }
+    &__item-content{
+      order: -1;
+      padding: 30px 0;
+    }
+    
   }
 }
 
